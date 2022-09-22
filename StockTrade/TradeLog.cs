@@ -9,5 +9,12 @@ namespace StockTrade
     public class TradeLog
     {
         public static List<string> Log = new List<string>();
+        public static void PrintTradeLog()
+        { 
+            foreach(var l in Log)
+            {
+                System.Console.WriteLine(l);
+            }
+        }
     }
 }

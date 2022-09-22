@@ -101,7 +101,12 @@ namespace StockTrade
         public override string ToString()
         {
             return $"{ID} : {Price:0.00}";
-        } 
+        }
+        
+        public void PrintStockPrice()
+        {
+            Console.WriteLine(this);
+        }
         #endregion
     }
 }
